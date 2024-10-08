@@ -17,7 +17,7 @@ onMounted(async () => {
     <RouterLink v-for="category in categories" 
     :key="category.id"
     :to="``"
-    class="bg-red-600 text-yellow-500 text-center flex h-32 items-center justify-center rounded-lg border-4 border-blue-500 py-4 font-bold uppercase hover:cursor-grabbing hover:border-green-600 hover:bg-yellow-400 hover:text-white transition-colors duration-150">
+    class="bg-red-600 text-yellow-500 text-center flex h-32 items-center justify-center rounded-lg border-4 border-blue-500 py-4 font-bold uppercase hover:cursor-grabbing hover:border-green-600 hover:bg-yellow-400 hover:text-white transition-colors duration-350">
       {{ category.name }}
     </RouterLink>
   </div>
